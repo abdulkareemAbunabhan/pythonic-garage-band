@@ -68,6 +68,7 @@ class Band:
     return solos  
   def to_list():
     return Band.instances
+  # fdgk
   @classmethod
   def all_bands(cls):
     return cls.count
